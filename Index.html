@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-main-wrapper">
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="logotip">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAflBMVEX///8AAADMzMz8/Pz09PTs7Ozw8PD39/fh4eHd3d3Pz8+wsLDa2trk5OSXl5fGxsa9vb1lZWVEREQ/Pz+lpaV9fX06OjpsbGzCwsKenp6rq6t2dnZKSkoxMTFdXV0oKCgeHh5VVVWMjIwYGBiDg4MLCwtycnJgYGBXV1csLCxj54qZAAAHLklEQVR4nO2di5KqOBCGCYgooIh4Ge93nXn/F1wC5EaCQu05k5zQX23VjihU59+k0+l0WMcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAeoCn24B/gES3AeaDoB99IEIz3SaYzgW9dJtgOCOEkK/bCLOZ5hItdBthNrlC6KTbCKMJsUQo1m2GyaSFRHfdZhiMh0ogNGpkW0kEEXYj+0qivW5DjGWCCAPdppjKlUo01W2KqZypRCvdphhKghiubmPMZMdJtNRtjJEMEU+g2xwTiQSJIGukYC9IBKGRzAiJTHQbZB7XmkQb3QaZx60mEdJtkHHM6gpB1qhOSqcy8sdat0mGERBhLmxmg6yRwILoErH4KNJtlFnMWdfxWIeCfsSIiSzX/MOafIANNYrHgqKxU9MLqCCiZMWnrPoEG2oMmikqPfSGfISsEYV6nzIFQiOAFBx2gccyRWSPcSdKBrCBFVYXQgiNahwqQQ601JFcgTR/SSz3mSm5BFmjgiXRg20w+nXv1HMelRw77hpZ+N9gTnO4TBEfBX2Ri1/a7DKIozKWJl0r1WSVSVC3I+7j00AA1rJs8hoKl2mVyFaTXQahHlEeHX8HTXaZAw2K6ktW6sVHWuwyCLKCPUvfsNCo3/M+zcJeJSFomk2LYeZAc/nyxEV3sHteAUESjN/SNx7dLZK/6xPjdz2F9rBer2VpUKT0yOTLPldAUGetrpB9Ns52fcFj2UX1UKIxU6j8ugewCLqpJI3s0fZ3LTsgvaRpHUbOhPQ3zU9X803hc/BJQ+sh1frN2VeSs53/olUm4X72xvQn41+0yyDICnb1Zp26qn7z/EW7zIGmG9/tJ9LYspfJRxIYvp2u6F52H49f0U70/kRMn+uxaIns+woZ6rD7V0BLN8o+1VnRc3x921Fjx2A/vf6COuxHzw7MZlSiTw2nPgudeqURO1j12cVc6G9/+qORz/pQizwHdzrkbK9GYvTMHxM+tdgB4n5eU9Se3SPhv72f8k1uExFO+RtSIdC0plctX4u4bMzAXSKBNgFh7bzjzi1VGo63e2sqtMoZ/nA4SMfy2r03bV+/DT+rtcL/BnOpjRXtwsGo6XaLErabhiY+Wt7fJJFFychJQxPbLt+XDffbM874F6YIDD/fWRCrb//5qzb/MqmyiZfW98sOG2PV4l/tjNqXfKgdtkWuqKmJ7YNjT3m/VVU1SmfS5dDiU/UAq/ax6y8EKejyroJQ9QCrqiBVEmWdVqErxRPaToj/BCqJunkSlcO3KSxSStStlGGgeIJV1WsKV9J1kb6TH2HV6eKF3L6u05ErP8KqSX8qNe/W+RmyRBbt0LJyNMauc1ZVXsRYlAtRBcfdFw9b6RnnP26oPhTBdfewL/kTDzEWRVDTPezz5YdYtI5Fj0s9Oua+HfMRkuihAq46rR4ZZReLEkY+HhDB17xBoiX/knRRohkXPQkSvRKsa2zNJhEGN51PiXCNewgVRkK89Dyzv/l30M4cm/YZeTi3XSzzi1aGZZbfK5scCMfPeI/MuWurwuoarB+VYV8y319+ENpfsme1Jp2RsHv0yvb50Dxd9qvyypVTyLoexC0UqEZV5RWpgKBj7UUz0t69/OqCxfO4LQLahzxnbItWHrejSMca0W0p9Atcr0+bHVbdrbhAI8eQ9aHQnu404AIYn0z/1edn2WwnTFzXDfFibhvmfyVh5X2qN4kQZ72ift5zZjbl1CZ8nroqgi3n83xtktzxOBMrRlA6xD/cJETKXW1A5mxsUijXiG/bjBtq0TEPcMIbjnJcrioCh0oB7lz+qvxZeZmvAThalVHLB0XC7wv65dZh8RLH4kJQzGdD0pF2Rbw9KscUns8mzHETjlbtfzhYo68z71oL53vz+B/gf8oA/OWwwLD49/CEL/O1tcPMxnc9J3kYyDTxsUc61cYKKY+oOZkBHoE7X/ihjQphjYT/Y9UI59nEdAbO3+IIcVu7L+9YgiRf1h6+GtdSqeM8JrqyjuU5Gfr2ncmKOyvrOV4+l905JT0cStmqEH7H5VwcQ8Poxp21iqsT+VNOgggdInE7yT/82HxUNkilbYvJdR9VPWlBXNOoki1YrK74Gu/oI/SyJqRWc0Wp1MJ4s1XN4MliIWVec40t2vdowK3vfxWK+WEo5MeGcfg1cKSk0AI9LFqXNTJI0Uo1ZQc+p4mv0sHN0MuuRUcj+QLkW5qTPK8KE5vuio+W7b++ZbCrRzrsqyJulPtQ+J2vYW2eySTiC0LZQm5yfEZnOegZbH8QOtoaDDXi4qXscRFzHSZIvov1xzrktPNGW3z1aOeK4wNhWcC4T6eLnE3KVw7P1xt8cXosF7br3vUgwmCjqs+rM99YtV3Wmcn09Faf7NrLEVbDj3bqzrTazawqZ/x/DMLtfX2imdlDeo/cXk3x7RmPRiO7ctIAAAAAAAAAAAAAAAAAAAAAAAAAAACAkv8Afgg9Zhtk27gAAAAASUVORK5CYII="
+                  alt=""
+                />
+              </div>
+              <div>
+                <a href="#">Home</a>
+                <a href="#about">about</a>
+                <a href="#services">services</a>
+                <a href="#work">work</a>
+                <a href="#blog">blog</a>
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img
+                src="https://avatars.mds.yandex.net/i?id=832c2159d8dea21f7510694c1b6403e9dec6ad66-7096437-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="right flex-1">
+              <h6>Абизян Макакович</h6>
+              <h1>Манки <span> рулят</span></h1>
+              <p>
+                Обезья́ны — группа млекопитающих из отряда приматов. В
+                биологической систематике название «обезьяны» может применяться
+                по отношению ко всем представителям инфраотряда Simiiformes[1]
+                или подотряда (оба таксона включают человека, который не
+                является обезьяной в обиходном смысле слова; второй таксон,
+                помимо представителей Simiiformes, включает также долгопятов).
+                Карл Линней включил в состав рода Simia всех приматов, кроме
+                лемуров, которых он объединил с шерстокрылами в род Lemur, а
+                также людей, орангутанов и шимпанзе, которых он включил в состав
+                рода . Во многих устаревших классификациях подотряд обезьян
+                (Simiae, также Anthropoidea или Pitheci) противопоставляется
+                подотряду полуобезьян (Prosimii). В целом обезьяны считаются
+                более развитыми в эволюционном отношении. Среди обезьян
+                преобладают виды, рождающие одного детёныша
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img
+              class="about-me-img"
+              src="https://avatars.mds.yandex.net/i?id=0a2fc1ab3f99d5c0073fed5b3ef2dc3b07bdc603-8218669-images-thumbs&n=13"
+              alt=""
+            />
+          </div>
+          <div class="flex-1 right">
+            <h1>Обо<span>мне</span></h1>
+            <h3>Я Скоро захвачу вселенную</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              commodi assumenda dolor laudantium? Voluptatibus repellendus a,
+              consequuntur possimus libero dolor ullam soluta, aliquid, ratione
+              totam officia. Quam earum qui modi.
+            </p>
+            <div class="social">
+              <a href="#"><img src="twitter.svg" alt="" /></a>
+              <a href="#"><img src="discord.svg" alt="" /></a>
+              <a href="#"><img src="github.svg" alt="" /></a>
+              <a href="#"><img src="instagram.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Мы</span>Захватим мир!</h1>
+          <p>Манки Завладеют землей уже через 5 Minutes</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="" alt="" />
+              <h2>Я не люблю учится</h2>
+              <p>
+                Мне просто не интнрестно там,хожу в школу чтоб с друзьями
+                видется
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="discord.svg" alt="" />
+              <h2>1</h2>
+              <p>Я ничего не знаю</p>
+            </div>
+            <div class="card">
+              <img src="discord.svg" alt="" />
+              <h2>мой любимый предмет-английский</h2>
+              <p>Просто нравится его учить</p>
+            </div>
+            <div class="card">
+              <img src="discord.svg" alt="" />
+              <h2>на втором месте информатика</h2>
+              <p>Люблю потому что она легкая</p>
+            </div>
+            <div class="card">
+              <img src="discord.svg" alt="" />
+              <h2>Поздно ложусь спать</h2>
+              <p>примерно в 2.00-3.00</p>
+            </div>
+
+            <div class="card">
+              <img src="discord.svg" alt="" />
+              <h2>я умею круто сидеть</h2>
+              <p>это дается лишь спустя годы тренировок</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Моя</span>Команда</h1>
+          <p>рймишгрим</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=4e2ea305b4da25aed08e14a46842cb5a07f606d4-9229750-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=6fa77f7e885330dfe02a440fecc990b8cf664b5d-8219873-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=10cc9af59edffd47953d5d1e0460107ff433a790-8184004-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=062f2e342b457592801e47cdc99c3b4042cd3050-9106703-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=513a256be5bd7a820b179d652ab2ad8080e8d3cf-8564995-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web develop</a>
+              </div>
+              <img
+                src="https://avatars.mds.yandex.net/i?id=555ae3326f476d9d3cec640515044efef954b366-8829620-images-thumbs&n=13"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog" class="blog">
+        <div class="container">
+          <h1 class="section-heading"><span>ШЗЩОЬ</span>ОПМА</h1>
+          <p>Они явно плохие</p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="https://i.gifer.com/embedded/download/3oSR.gif" alt="">
+              </div>
+              <div class="card-content">
+                <a href="">
+                  <h1>ошщитгк</h1>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus voluptates quia molestias quam perspiciatis neque a, provident quas ex illo veniam vero inventore ea architecto, corporis rem nostrum ipsum.</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="https://media.tenor.com/ZJvbDwFrV98AAAAd/monkey-happy.gif" alt="">
+              </div>
+              <div class="card-content">
+                <a href="">
+                  <h1>ошщитгк</h1>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus voluptates quia molestias quam perspiciatis neque a, provident quas ex illo veniam vero inventore ea architecto, corporis rem nostrum ipsum.</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="https://media.tenor.com/images/121af74b8209aebdee73bcf9994df9d4/tenor.gif" alt="">
+              </div>
+              <div class="card-content">
+                <a href="">
+                  <h1>ошщитгк</h1>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus voluptates quia molestias quam perspiciatis neque a, provident quas ex illo veniam vero inventore ea architecto, corporis rem nostrum ipsum.</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+         
+
+        </div>
+       
+      </section>
+    </div>
+  </body>
+</html>
